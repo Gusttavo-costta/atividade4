@@ -1,0 +1,133 @@
+:root {
+    --primary-color: rgb(249, 251, 248);
+    --text-color: #34504b;
+    --text-secundary: #70b6aa;
+    --button-color: rgb(70, 102, 67);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* body {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+
+.pagina1 {
+    width: 50%;
+    height: 940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #34504b;
+    border-radius: 20px 20px 20px 20px;
+    background-color: var(--primary-color);
+
+}
+
+
+.pagina2 {
+    margin-top: 0px;
+    margin-right: 20px;
+    width: 48%;
+    height: 100vh;
+    background-image: url(img/peter-thomas-9RnJFyR3T_c-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 10px 5px 5px 5px rgb(112, 112, 112);
+}
+
+.pagina2 p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.text-description {
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    width: 350px;
+    height: 500px;
+    
+}
+
+
+#input {
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #34504b;
+    padding-left: 10px;
+}
+
+
+#characters {
+    font-size: 14px;
+}
+
+.forgot {
+    float: right;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.forgot:hover {
+    color: black;
+}
+
+button {
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    opacity: 0.9;
+    color: white;
+}
+
+button:hover {
+    opacity: 1;
+
+} 
+
+a {
+    color: var(--text-secundary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1DA87F;
+    font-weight: bold;
+}
